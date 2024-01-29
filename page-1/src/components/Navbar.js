@@ -3,15 +3,17 @@ import React from 'react'
 const Navbar = () => {
   return (
     <>
+    <div className='Navbar'>
     <div className='Navbar-right'>
-    <img className='logo' src='../images/Kudumbasree logo.jpg.'/>
+    <img className='logo' src='../images/Kudumbasree-logo.jpg'/>
     <h3>D_Kudumbashree</h3>
     </div>
     <div className='Navbar-left'>
-      <p>Login</p>
-      <p>Overview</p>
-      <p>Miner officer</p>
-      <p>Contact</p>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+    </div>
     </div>
     </>
   )
